@@ -1,0 +1,25 @@
+doctype html
+html  
+  head
+    title= title
+    link(href='/stylesheets/bootstrap.css', rel='stylesheet')
+    link(href='/stylesheets/style.css', rel='stylesheet')
+    
+    meta(content="width=divice-width, initial-scale=1.0")
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+
+  body
+    include includes/menu
+    
+    .container.container-fluid
+      block content
+
+
+  footer
+    .ex-footer.navbar-fixed-bottom.modal-footer       
+        p Make SoEasy New Version
+          | Version 001
+          | of Junyoung
+    
+
+
